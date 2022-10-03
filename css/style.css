@@ -1,0 +1,14 @@
+:root{
+    --collor1: #05b1b1;
+    --collor1: #52339a;
+}
+header, footer, section{
+    padding: 100px 0;
+}
+header{
+    padding: 200px 0;
+}
+header, footer{
+    
+}
+
