@@ -11,25 +11,41 @@
     <title>Site-bootstrap</title>
 </head>
 <body>
-    <div class="header">
+    <header>
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <h1 class="text-center text-white">Видео курс по вёрстке для начинающих HTML & CSS
                     </h1>
-                    <div class="itd-play">
-                        <div class="itd-triangle">
-                            <a href="#footer"  class="btn btn-itd btn-lg text-uppercase">Заказать</a>
+                    <div class="itd_play" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <div class="itd_triangle">
                         </div>
                     </div>
+                    <a href="#footer" class="btn btn-itd btn-lg text-uppercase">Заказать</a>
                 </div>
             </div>
         </div>
-    </div>
-    
+    </header>
     <footer id="footer">
     </footer>
-    
+    <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Трейлер видео курса по HTML и CSS</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed//41tdjZWeCH0' frameborder='0' allowfullscreen></iframe></div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        
     <script src="/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
+<!--Замену при наведении на кнопку-->
