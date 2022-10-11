@@ -46,8 +46,9 @@ header, footer{
     background-color: var(--color2);
 }
 .btn-itd:hover {
-    color: var(--bs-white);
-    background-color: var(--color1);
+    color: var(--bs-white)!important;
+    background-color: var(--color1)!important;
+    
 }
 .embed-container { 
     position: relative; 
